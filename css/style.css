@@ -124,6 +124,7 @@ h4.subHeading {
 .heading {
 	text-align:center;
 	padding-bottom:45px;
+	color: black;
 }
 .topmar {
 	margin-top:20px;
@@ -138,6 +139,7 @@ header {
 	overflow:hidden;
 	margin:0 auto !important;
 	background:#CACACA;
+	width: 390px;
 }
 .bannerText {
 	position:absolute;
@@ -427,7 +429,7 @@ header {
 }
 .technical {
 	background:#eeeeee;
-	color:#474d5d;
+	color:#000000;
 }
 .technical .container {
 	padding-top:85px;
@@ -440,7 +442,7 @@ header {
 	color:#474d5d;
 }
 .technical h2 {
-	color:#ff675f;
+	color:#000000;
 }
 .technical .skillsArea {
 	padding:0px;
@@ -468,16 +470,88 @@ header {
 	font-weight:700;
 	text-transform:uppercase;
 }
-.skilBg {
+/* .skills {
 	background:url(../images/skills.png) no-repeat 0 0;
+} */
+.docker {
+	background:url(../images/docker.png) no-repeat 0 0;
+}
+.terraform {
+	background:url(../images/terraform.png) no-repeat 0 0;
+}
+.jenkins {
+	background:url(../images/jenkins.png) no-repeat 0 0;
+}
+.ansible {
+	background:url(../images/aansible.png) no-repeat 0 0;
+}
+.aws {
+	background:url(../images/aws.png) no-repeat 0 0;
+}
+.python {
+	background:url(../images/python.png) no-repeat 0 0;
+}
+.batch {
+	background:url(../images/skills.png) no-repeat 0 0;
+}
+.shell {
+	background:url(../images/shell.png) no-repeat 0 0;
+}
+.selinium {
+	background:url(../images/selinium.png) no-repeat 0 0;
+}
+.git {
+	background:url(../images/git.png) no-repeat 0 0;
+}
+.vm {
+	background:url(../images/vm.png) no-repeat 0 0;
+}
+.windows {
+	background:url(../images/windows.png) no-repeat 0 0;
+}
+.linux {
+	background:url(../images/linux.png) no-repeat 0 0;
+}
+/* Secondary Skillls */
+.photoshop {
+	background:url(../images/photoshop.png) no-repeat 0 0;
+}
+.premierpro {
+	background:url(../images/premierpro.png) no-repeat 0 0;
+}
+.networking {
+	background:url(../images/networking.png) no-repeat 0 0;
+}
+.msoffice {
+	background:url(../images/msofffice.png) no-repeat 0 0;
+}
+.html_css {
+	background:url(../images/html_css.png) no-repeat 0 0;
+}
+.android {
+	background:url(../images/android.png) no-repeat 0 0;
+}
+.sql {
+	background:url(../images/sql.png) no-repeat 0 0;
+}
+.ethicalhacking {
+	background:url(../images/ethicalhacking.png) no-repeat 0 0;
+}
+
+.typing {
+	background:url(../images/typing.png) no-repeat 0 0;
 }
 .chart {
 	position: relative;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	margin-bottom: 26px;
-	text-align: center;
+    display: inline-block;
+    text-decoration-color: #8f6e42;
+    width: 152px;
+    height: 154px;
+    margin-bottom: 26px;
+    text-align: center;
+    text-indent: 6em;
+    font-weight: 800;
+    text-shadow: 2
 }
 .chart canvas {
 	position: absolute;
@@ -513,7 +587,7 @@ header {
 	padding-bottom:90px;
 }
 .exprience h2 {
-	color:#ff675f;
+	color:#000000;
 }
 .exprience p {
 	color:#84868d;
@@ -563,11 +637,11 @@ header {
 	line-height:21px;
 }
 .exCon h4 {
-	color:#474d5d;
+	color:#000000;
 	padding-bottom:3px;
 }
 .exCon h5 {
-	color:#474d5d;
+	color:#000000;
 }
 /*----------------------------------------------------
  9.	Education Style
@@ -580,7 +654,7 @@ header {
 	padding-bottom:90px;
 }
 .education h2 {
-	color:#ff675f;
+	color:#000000;
 }
 .education p {
 	color:#84868d;
